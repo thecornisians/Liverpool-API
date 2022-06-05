@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+.heading{
+    text-transform: uppercase;
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.486);
+    color: #fff;
+    padding: 3rem;
+    font-size: 5rem;
+}
+
+.intro{
+    text-decoration: underline;
+    text-align: center;
+    font-size: 2rem;
+}

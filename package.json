@@ -1,0 +1,19 @@
+{
+  "name": "liverpool-api",
+  "version": "1.0.0",
+  "description": "An APi with details of the liverpool squad from the 2021/22 season ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Cornelius Owusu-Ansah",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
