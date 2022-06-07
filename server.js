@@ -261,6 +261,10 @@ app.get('/style.css', (req,res)=>{
 //     res.sendFile(__dirname + '/js/main.js')
 //   })
 
+app.get('/api', (req,res) =>{
+    res.json(squad)
+})
+
 app.get('/api/:name', (req,res)=>{
     console.log(res.json)
     const playerName = req.params.name.toLowerCase()
