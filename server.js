@@ -178,7 +178,7 @@ const squad = {
         'Goals': 5
     },
      
-    'FabinhoSadio Mane':{
+    'Sadio Mane':{
         'Name' : 'Sadio Mane',
         'Shirt Number': 10,
         'Nationality': "Senegal",
