@@ -54,6 +54,12 @@
                 </tr>
 
                 <tr>
+                    <td>Appearances</td>
+                    <td>The number of matches played</td>
+                    <td>Integer</td>
+                </tr>
+
+                <tr>
                     <td>Assists/CleanSheets</td>
                     <td>For Defenders : The number of games they played in without conceding a goal.<br>
                         For Midfielders & Attackers : Passes that led directly to a goal being scored
@@ -117,17 +123,18 @@
             <div class="on-page-api-consumption">
                 <h2>API Test</h2>
                 <p>You can test out the API down below. Enter Player Name to try out API</p>
-                <input type="search" name="playerName" placeholder="Enter Player Name" id="playerName" class="playerName">
+                <label for="playerName">https://liverpool-app.herokuapp.com/</label><input type="search" name="playerName" placeholder="Enter Player Name" id="playerName" class="playerName">
                 <input type="submit" value="submit" id="submit">
             </div>
 
             <div>
-                <h3 class="player-name"></h3>
-                <!-- <img class="player-image" src="" alt=""> -->
-                <h4 class="shirt-number"></h4>
-                <h4 class="nationality"></h4>
-                <h4 class="assist"></h4>
-                <h4 class="goals"></h4>
+                <h3 id="player-name"></h3>
+                <!-- <img id="player-image" src="" alt=""> -->
+                <h4 id="shirt-number">cam</h4>
+                <h4 id="nationality">cam</h4>
+                <h4 id="appearances"></h4>
+                <h4 id="assist"></h4>
+                <h4 id="goals"></h4>
             </div>
         </section>
 
