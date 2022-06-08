@@ -1,4 +1,4 @@
-document.querySelector('#submit').addEventListener('click' , addToDom)
+document.querySelector('#submit').addEventListener('click',addToDom)
 const getPlayer = document.querySelector('#playerName').value
 
 const playerImage = document.getElementById('player-image')
@@ -11,7 +11,6 @@ const goals = document.getElementById('goals')
 
 
 async function addToDom(){
-    console.log('running')
     try{
         const res = await fetch(`https://liverpool-app.herokuapp.com/squad/${getPlayer}`) 
         const data =  await res.json()
