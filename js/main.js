@@ -1,5 +1,5 @@
-document.querySelector('submit').addEventListener('click' , addToDom)
-const value = document.querySelector('input').value
+document.querySelector('#submit').addEventListener('click' , addToDom)
+const value = document.querySelector('#playerName').value
 
 const playerImage = document.querySelector('player-image')
 const playerName = document.querySelector('player-name')
