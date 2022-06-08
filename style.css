@@ -1,10 +1,18 @@
 *{
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
 }
 
-img{
+
+.main-image{
     max-width: 100%;
+}
+
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2;
+    line-height: 2;
 }
 
 .heading{
@@ -12,12 +20,109 @@ img{
     text-align: center;
     background-color: rgba(255, 0, 0, 0.486);
     color: #fff;
-    padding: 3rem;
-    font-size: 5rem;
+    padding: 1rem 3rem;
+    font-size: 4rem;
+}
+p{
+    text-align: center;
 }
 
-.intro{
-    text-decoration: underline;
+.container{
+   width: 90%;
+   margin: 0 auto;
+}
+
+.intro, .table-heading,h2{
     text-align: center;
     font-size: 2rem;
+}
+
+
+table{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: none;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 1rem;
+  }
+
+.playerName{
+    padding: 0.4rem 1.7rem;
+    font-size: 0.9rem;
+}
+ 
+  input[type=submit] {
+    background-color: rgba(255, 0, 0, 0.486);
+    border: none;
+    color: white;
+    padding: 0.5rem 1.8rem;
+    text-decoration: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-top: 1rem;
+  }
+
+  .api-test{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin-top: 1.5rem;
+      
+  }
+
+  input[type=submit]:hover{
+      background-color: rgba(37, 5, 5, 0.911);
+  }
+
+  .players-in-api{
+    margin: 1.5rem 0;
+  }
+
+  .squad{
+      text-align: center;
+      list-style-position: inside;
+  }
+
+
+  footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+    font-size: 1rem;
+  }
+
+  footer a{
+    color: rgba(255, 0, 0, 0.486);
+    font-size: 1rem;
+    text-decoration: none;
+  }
+/* =============================================================
+Media-Queries
+============================================================= */
+
+@media(max-width: 780px) {
+    .heading{
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+}
+
+@media(min-width:768px){
+    .squad{
+        display: flex;
+        justify-content: center;
+        gap: 10rem;
+        list-style-position: outside;
+    }
 }

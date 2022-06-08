@@ -5,41 +5,141 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/4e3190f960.js" crossorigin="anonymous" defer></script>
 
     <title>The Liverpool API</title>
 </head>
 <body>
-    <h1 class="heading">The Liverpool API</h1>
-    <img src="./images/IMG-9942.JPG" alt="" class="">
-    <h3 class="intro">Welcome to the Liverpool API</h3>
+    <header>
+        <h1 class="heading">The Liverpool API</h1>
+    </header>
+    <div class="main-images">
+        <img src="./images/IMG-9942.JPG" alt="" class="main-image">
+    </div>
+    <div class="container">
+        <section>
+         
+        </section>
+        <section>
+            <h3 class="intro">Welcome to the Liverpool API</h3>
+        
+            <p>This API contains information about every single player that made a league appearance for Liverpool football club during the 2021/22 premier league season
+                This information includes name, nationality, appearances, clean sheets (for defensive players & goalkeepers), assist and goals scored. To consume this API, please use the following URL:
+                    <a href="https://liverpool-app.herokuapp.com/playername">https://liverpool-app.herokuapp.com/squad/{Enter player-name}.</a> The full JSON object in this API can be found at <a href="https://liverpool-app.herokuapp.com/squad/">https://liverpool-app.herokuapp.com/squad/</a> . This API is completely free and does not require any key
+            </p>
+            <h3 class="table-heading">Properties and Description</h3>
+            <table>
+                <tr>
+                    <th>Properties</th>
+                    <th>Description</th>
+                    <th>Data Type</th>
+                </tr>
 
-    <p>This API contain information of every single player that made a league appearance for Liverpool football club during the 2021/22 premier league season
-        This inforation includes name, Nationality, appearances, clean sheets (for defensive players & goalkeepers), assist and goals scored.
-        You can search for player details using 'ENter link here'
-    </p>
+                <tr>
+                    <td>Name</td>
+                    <td>Name of Player</td>
+                    <td>String</td>
+                </tr>
 
-    
+                <tr>
+                    <td>Shirt Number</td>
+                    <td>Player's jersey number</td>
+                    <td>Integer</td>
+                </tr>
+
+                <tr>
+                    <td>Nationality</td>
+                    <td>Player's country of birth</td>
+                    <td>String</td>
+                </tr>
+
+                <tr>
+                    <td>Assists/CleanSheets</td>
+                    <td>For Defenders : The number of games they played in without conceding a goal.<br>
+                        For Midfielders & Attackers : Passes that led directly to a goal being scored
+                    </td>
+                    <td>Integer</td>
+                </tr>
+
+                <tr>
+                    <td>Goals</td>
+                    <td>Goals scored in the league during the season</td>
+                    <td>Integer</td>
+                </tr>
+            </table>
+        </section>
+
+        <section class="players-in-api">
+               <h2>Player's included in this API</h2>
+               <div class="squad">
+                    <ul>
+                        <li>Alisson</li>
+                        <li>Adrian</li>
+                        <li>Caoimhin Kelleher</li>
+                        <li>Virgil Van Dijk</li>
+                        <li>Joseph Gomez</li>
+                        <li>Konstantinos Tsimikas</li>
+                        <li>Andrew Robertson</li>
+                        <li>Joel Matip</li>
+                        <li>Ibrahima Konate</li> 
+                        
+                    </ul>   
+                    
+                    <ul>
+                        <li>Trent Alexander-Arnold</li>
+                        <li>Fabinho</li> 
+                        <li>Thiago Alcantara</li>
+                        <li>James Milner</li>
+                        <li>Naby Keita</li>
+                        <li>Jordan Henderson</li>
+                        <li>Alex Oxlade-Chamberlain</li>
+                        <li>Curtis Jones</li>
+                        <li>Harvey Elliot</li>
+                    </ul>
+
+
+                    <ul>
+                        <li>Tyler Morton</li>
+                        <li>Firmino</li>
+                        <li>Sadio Mane</li>
+                        <li>Mohammed Salah</li>
+                        <li>Diogo Jota</li>
+                        <li>Divock Origi</li>
+                        <li>Takumi Minamino</li>
+                        <li>Kaide Gordon</li>
+                        <li>Luiz Diaz</li>
+                    </ul>
+               </div>
+            <p>If you search for a player not included in this API, your GET request will return 'Unknown. You can search for specific player details using playerName.property or playerName['property']. For Example firmino.goals or firmino['goals'] </p>
+               
+        </section> 
+        <section class="api-test">
+            <div class="on-page-api-consumption">
+                <h2>API Test</h2>
+                <p>You can test out the API down below. Enter Player Name to try out API</p>
+                <input type="search" name="playerName" placeholder="Enter Player Name" id="playerName" class="playerName">
+                <input type="submit" value="submit" id="submit">
+            </div>
+
+            <div>
+                <h3 class="player-name"></h3>
+                <!-- <img class="player-image" src="" alt=""> -->
+                <h4 class="shirt-number"></h4>
+                <h4 class="nationality"></h4>
+                <h4 class="assist"></h4>
+                <h4 class="goals"></h4>
+            </div>
+        </section>
+
+        <footer>
+            <span>&copy;2022</span>
+            <span><a href="http://github.com/thecornisians/" target="_blank"><i class="fa-brands fa-github">Github</i></a></span>           
+            <span><a href="https://twitter.com/thecornisians" target="_blank"><i class="fa-brands fa-twitter"> Twitter</i></a></span>
+        </footer>
+    </div>
+
+  
 </body>
 </html>
 
-Support
-The API and site will always remain free to access at its basic level. If you love our service and want extra features you can sign up as a Patreon supporter for $2
-You can cancel anytime. This allows us to pay for the servers and bandwidth and develop new features and content.
 
- Test API Key
-You can use the test API key "1" during development of your app or for educational use(see test links below)
-However you must sign up to Patreon if you want a production API key if releasing publicly on an appstore.
-
- API Production Key Upgrade
-All Patreon supporters have access to the beta version of the API which allows mutiple ingredient filters.
-Supporters also get special lookups for Popular and Recent Cocktails. You can also list the full database rather than limited to 100 items.
-You also get access to the latest and multi random image API methods.
-Finally you also get access to adding your own cocktails and images. Please sign up on Patreon then email us to get the upgraded.
-
- Contact
-Email: thedatadb@gmail.com (please state if you are a Patreon Supporter)
-
- API Methods using the developer test key '1' as the API key
-
-Search cocktail by name
-www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita
