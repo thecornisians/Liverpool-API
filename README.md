@@ -15,7 +15,7 @@ This API is built with Node and Express. It returns JSON data when you issue a r
 ## Optimizations
 *(optional)*
 
-In the future I'll like to store the data in a database like MongoDB and allow users to not only issues GET requests but also POST requests to add new entries into the Database.
+In the future I'll like to store the data in a database like MongoDB and allow users to not only issues GET requests but also POST requests to add new entries into the Database. I'll also like to load up player images in the database
 
 ## Lessons Learned:
 
