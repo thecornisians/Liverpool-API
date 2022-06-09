@@ -1,26 +1,25 @@
 # Liverpool API
-Write a short sentence or two about this project and what it does. Be sure to include a link and a screenshot (we're front end devs so we can actually see our work!).
+This API contains information about every single player that made a league appearance for Liverpool football club during the 2021/22 premier league season This information includes name, nationality, appearances, clean sheets (for defensive players & goalkeepers), assist and goals scored.
 
 **Link to project:** [(https://liverpool-app.herokuapp.com/)](https://liverpool-app.herokuapp.com/)
 
-![alt tag](http://placecorgi.com/1200/650)
+![liverpool-api](https://user-images.githubusercontent.com/84820874/172867997-972f6b78-494f-419f-adc1-df683561079a.gif)
+
 
 ## How It's Made:
 
 **Tech used:** HTML, CSS, JavaScript, Nodejs & Express
 
-Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write *something*. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
+This API is built with Node and Express. It returns JSON data when you issue a request to https://liverpool-app.herokuapp.com/squad (return all players in this API) or https://liverpool-app.herokuapp.com/squad/playername (returns data for a specific player). The frontend of the API is built with Vanilla HTML,CSS and Javascript.
 
 ## Optimizations
 *(optional)*
 
-You don't have to include this section but interviewers *love* that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are **GREAT** to bring up in interviews and you can use this section as reference when studying for technical interviews!
+In the future I'll like to store the data in a database like MongoDB and allow users to not only issues GET requests but also POST requests to add new entries into the Database.
 
 ## Lessons Learned:
 
-No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those *whoa this is awesome* or *fuck yeah I did it!* moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
+I learned how to use node and express to build out servers and serve out JSON data in response to GET requests.
 
-## Examples:
-Take a look at these couple examples that I have in my own portfolio:
 
 
