@@ -279,8 +279,6 @@ app.get('/squad/:name', (req,res)=>{
     const playerName = req.params.name.toLowerCase()
     if(squad[playerName]){
         res.json(squad[playerName])
-    }else if([squad].includes(req)){
-        res.json(squad[playerName])
     }
     else{
         res.json(squad['unknown'])
