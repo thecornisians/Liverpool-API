@@ -28,6 +28,7 @@ const squad = {
         'nationality': 'Spain',
         'appearances': 0,
         'clean sheets' : 0,
+        'assists': 1,
         'goals': 0
     },
     'caoimhin kellerher':{
@@ -36,6 +37,7 @@ const squad = {
         'nationality': "Ireland",
         'appearances' : 2,
         'clean sheets' : 1,
+        'assists': 0,
         'goals': 0
     },
     'virgil van dijk':{
@@ -44,6 +46,7 @@ const squad = {
         'nationality': "Netherlands",
         'appearances' : 34,
         'clean sheets' : 21,
+        'assists': 0,
         'goals': 3
     },
     'joseph gomez':{
@@ -52,6 +55,7 @@ const squad = {
         'nationality': "England",
         'appearances' : 8,
         'clean sheets' : 2,
+        'assists': 1,
         'goals': 0
     },
     'konstantinos tsimikas':{
@@ -60,6 +64,7 @@ const squad = {
         'nationality': "Greece",
         'appearances' : 13,
         'clean sheets' : 3,
+        'assists': 2,
         'goals': 0
     },
     'andrew robertson':{
@@ -68,6 +73,7 @@ const squad = {
         'nationality': "Scotland",
         'appearances' : 29,
         'clean sheets' : 16,
+        'assists': 10,
         'goals': 3
     },
     'joel matip':{
@@ -76,6 +82,7 @@ const squad = {
         'nationality': "Cameroon",
         'appearances' : 31,
         'clean sheets' : 17,
+        'assists': 3,
         'goals': 3
     },
     'trent alexander-arnold':{
