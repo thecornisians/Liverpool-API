@@ -18,7 +18,7 @@ In the future I'll like to store the data in a database like MongoDB and allow u
 
 ## Lessons Learned:
 
-I learned how to use node and express to build out servers and serve out JSON data in response to GET requests.
+I learnt how to use node and express to build out servers and serve out JSON data in response to GET requests.
 
 
 
