@@ -1,5 +1,6 @@
 # Liverpool API
-This API contains information about every single player that made a league appearance for Liverpool football club during the 2021/22 premier league season This information includes name, nationality, appearances, clean sheets (for defensive players & goalkeepers), assist and goals scored.
+A REST Api built with javascript. This API contains information about every single player that made a league appearance for Liverpool football club during the 2021/22 premier league season This information includes name, nationality, appearances, clean sheets (for defensive players & goalkeepers), assist and goals scored.
+You can make a fetch request to the API https://liverpool-app.herokuapp.com/squad/?param (more details on API usage can be found at https://liverpool-app.herokuapp.com/)
 
 **Link to project:** [(https://liverpool-app.herokuapp.com/)](https://liverpool-app.herokuapp.com/)
 
